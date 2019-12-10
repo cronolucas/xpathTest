@@ -17,7 +17,7 @@ var backupElement;
 							var body = backupElement.contentDocument.getElementsByTagName('body');
                             var s = document.createElement("script");
                             s.type = "text/javascript";
-                            s.src = "C:\Users\metinc\Documents\test.js";
+                            s.src = "https://github.com/cronolucas/xpathTest/blob/master/injectTest.js";
                             body[0].append(s);
 						}
                         backupBorder = backupElement.style.border;
